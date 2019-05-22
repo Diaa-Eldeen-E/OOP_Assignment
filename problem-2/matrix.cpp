@@ -5,9 +5,8 @@
 (i couldnt return 0 to a ** or an object return type) */
 
 
-/* functions for getting inverse which i got from searching on the internet so its not totaly mine :D
-i modified a alot of it though.
-*/
+// functions for getting matrix inverse 
+
 //function to get the matrix determinant
 template <class any> any determinant(any **matrix, int size)
 {
