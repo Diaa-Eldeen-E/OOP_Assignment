@@ -3,7 +3,6 @@
 
 #include "../problem-1/array.h"
 
-// Put your class declaration here
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -62,8 +61,7 @@ public:
 
 
 	// normal c++ matrix in the LHS
-	/* i defined them here because i couldnt do it in the .cpp file
-	it was giving an error because of the template class. */
+	// Those must be defined here because of the template class
 	friend matrix operator+(any** lhs, matrix rhs)   // plus operator
 	{
 		any** result = new any*[rhs.n];
@@ -88,8 +86,7 @@ public:
 		for (int i = 0; i < rhs.n; i++) delete result[i];
 		delete[] result;
 	}
-	/* this multiply works only for n= rhs.n and m = rhs.m  because i need to know the lhs matrix rows and columns in order to
-	make it a general function .... i didnt know how to get the LHS matrix s' number of rows and columns  */
+	// this multiply works only for n= rhs.n and m = rhs.m  
 	friend matrix operator*(any** lhs, matrix rhs)   // multiply operator
 	{
 		any ** result = new any *[rhs.n];
@@ -118,8 +115,7 @@ public:
 
 
 	// input , output operators 
-	/* i defined them here because i couldnt do it in the .cpp file
-	it was giving an error because of the template class. */
+	// Those must be defined here because of the template class
 	friend ostream& operator<< (ostream& out, const matrix&mat)  // cout
 	{
 

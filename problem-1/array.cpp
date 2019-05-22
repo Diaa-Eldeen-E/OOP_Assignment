@@ -1,6 +1,5 @@
 #include "array.h"
 
-// Put your class definition here
 template <class any> array<any>::array(int m)   // create an empty array
 {
 	n = m;

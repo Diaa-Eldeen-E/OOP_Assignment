@@ -1,7 +1,6 @@
 #ifndef ARRAY_H
 #define ARRAY_H
 
-// Put your class declaration here
 #include <iostream>
 using namespace std;
 
@@ -51,8 +50,7 @@ public:
 	array& operator/=(any * rhs);  // /= operator
 
 	// normal c++ array in the LHS
-	/* i defined them here because i couldnt do it in the .cpp file
-	it was giving an error because of the template class. */
+	// Those must be defined here because of the template class
 	friend array operator+(any* lhs, array rhs)  // for x+a
 	{
 		any* result = new any[rhs.n];
@@ -86,8 +84,7 @@ public:
 	// input , output operators 
 	any operator[](int index);  // [] operator
 
-	/* i defined them here because i couldnt do it in the .cpp file
-	it was giving an error because of the template class. */
+	// Those must be defined here because of the template class
 	friend istream& operator>>(istream& in, array &arr)    //cin
 	{
 		for (int i = 0; i < arr.n; i++)

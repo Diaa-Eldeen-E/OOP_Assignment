@@ -1,6 +1,5 @@
 #include "matrix.h"
 
-// Put your class definition here
 /*The program crashes when an error message happens because there is no return
 (i couldnt return 0 to a ** or an object return type) */
 
@@ -352,8 +351,7 @@ template <class any> matrix<any> matrix<any>::operator-(any**  rhs)   // minus o
 	for (int i = 0; i < n; i++) delete result[i];
 	delete[] result;
 }
-/* this multiply works only for n= rhs.n and m = rhs.m  because i need to know the RHS matrix s' rows and columns in order to
-make it a general function .... i didnt know how to get the RHS matrix s' number of rows and columns  */
+// this multiply works only for n= rhs.n and m = rhs.m  
 template <class any> matrix<any> matrix<any>::operator*(any**  rhs)   // multiply operator
 {
 	any ** result = new any *[n];
