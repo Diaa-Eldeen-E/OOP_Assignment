@@ -64,26 +64,18 @@ cout << a;  // prints all elements of a
 
 ```
 
-# ***************************************************************************
+# *********************************************************
 
 The "matrix" class inhierts from the "array" class and also can do the following:
 
 * Creates an empty matrix object of size (n) * (m)
-
 * Copies a c++ 2D array into an object matrix
-
 * Copies an object matrix into another object matrix
-
 * Deletes the object matrix from the memory
-
 * adds/sets an element at a certain index ( i , j )
-
 * gets an element at a certain index ( i , j )
-
 * transposes a square matrix
-
 * finds the inverse of a square matrix
-
 * prints the elements of the matrix
 
 OverLoaded operators for the "matrix" class
