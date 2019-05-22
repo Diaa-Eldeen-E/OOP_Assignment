@@ -1,5 +1,5 @@
 ###
-* This is programming language course final assignment
+# This is programming language course final assignment
 
 A c++ class "matrix" that also inhierts from a class "array" 
 
