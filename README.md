@@ -7,21 +7,21 @@ both classes accept any data type e.g. int, double, etc.
 
 The "array" class can do the following:
 
-*Creates an empty array object of size (n)
+* Creates an empty array object of size (n)
 
-*Copies a c++ array into an object array
+* Copies a c++ array into an object array
 
-*Copies an object array into another object array
+* Copies an object array into another object array
 
-*Deletes the object array from the memory
+* Deletes the object array from the memory
 
-*adds/sets an element at a certain index
+* adds/sets an element at a certain index
 
-*gets an element at a certain index
+* gets an element at a certain index
 
-*finds the average of the array
+* finds the average of the array
 
-*prints the elements of the array
+* prints the elements of the array
 
 OverLoaded operators for the "array" class
 
