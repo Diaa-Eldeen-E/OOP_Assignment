@@ -62,6 +62,8 @@ cout << a[5]; // operator[]
 cin >> a; // reads all elements of a
 cout << a;  // prints all elements of a
 
+```
+
 # ***************************************************************************
 
 The "matrix" class inhierts from the "array" class and also can do the following:
