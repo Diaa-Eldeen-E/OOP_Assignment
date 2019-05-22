@@ -8,19 +8,12 @@ both classes accept any data type e.g. int, double, etc.
 The "array" class can do the following:
 
 * Creates an empty array object of size (n)
-
 * Copies a c++ array into an object array
-
 * Copies an object array into another object array
-
 * Deletes the object array from the memory
-
 * adds/sets an element at a certain index
-
 * gets an element at a certain index
-
 * finds the average of the array
-
 * prints the elements of the array
 
 OverLoaded operators for the "array" class
@@ -66,29 +59,30 @@ a /= x;
 
 cout << a[5]; // operator[]
 
-cin >> a; // read elements of a
-cout << a;  // print elements of a
+cin >> a; // reads all elements of a
+cout << a;  // prints all elements of a
 
-***************************************************************************
+# ***************************************************************************
+
 The "matrix" class inhierts from the "array" class and also can do the following:
 
-*Creates an empty matrix object of size (n) * (m)
+* Creates an empty matrix object of size (n) * (m)
 
-*Copies a c++ 2D array into an object matrix
+* Copies a c++ 2D array into an object matrix
 
-*Copies an object matrix into another object matrix
+* Copies an object matrix into another object matrix
 
-*Deletes the object matrix from the memory
+* Deletes the object matrix from the memory
 
-*adds/sets an element at a certain index ( i , j )
+* adds/sets an element at a certain index ( i , j )
 
-*gets an element at a certain index ( i , j )
+* gets an element at a certain index ( i , j )
 
-*transposes a square matrix
+* transposes a square matrix
 
-*finds the inverse of a square matrix
+* finds the inverse of a square matrix
 
-*prints the elements of the matrix
+* prints the elements of the matrix
 
 OverLoaded operators for the "matrix" class
 
